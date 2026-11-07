@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can the quantum vacuum alone hold a wormhole open? · A plain-language guide</title>
+<meta name="description" content="A plain-language guide, with a short video, to a 2026 paper that tests whether the quantum vacuum of one field can, by itself, hold a wormhole throat open. English and Japanese.">
+<meta property="og:title" content="Can the quantum vacuum alone hold a wormhole open?">
+<meta property="og:description" content="A plain-language guide, with a short video, to a 2026 research paper. English and Japanese.">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#fcfcfb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1a19" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 3 C6 12 13 13 13 16 C13 19 6 20 6 29 M26 3 C26 12 19 13 19 16 C19 19 26 20 26 29' fill='none' stroke='%235b7fa6' stroke-width='2'/%3E%3Cellipse cx='16' cy='16' rx='3.4' ry='1.4' fill='none' stroke='%23e8c11c' stroke-width='2'/%3E%3C/svg%3E">
+<script>
+  // Choose the language before the first paint, so the other language never flashes.
+  (function () {
+    var l = "en";
+    try { var q = new URLSearchParams(location.search).get("lang"); if (q === "en" || q === "ja") l = q; else {
+      var s = localStorage.getItem("urashima-explainer-lang"); if (s === "en" || s === "ja") l = s; } } catch (e) {}
+    document.documentElement.setAttribute("data-lang", l);
+    document.documentElement.setAttribute("lang", l);
+  })();
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en" lang="en">Skip to the guide</span><span data-l="ja" lang="ja">本文へ</span></a>
+
+<header class="bar">
+  <div class="bar-in">
+    <div class="brand"><b><span data-l="en" lang="en">Wormholes and the quantum vacuum</span><span data-l="ja" lang="ja">ワームホールと量子の真空</span></b> · <span data-l="en" lang="en">plain-language guide</span><span data-l="ja" lang="ja">やさしい解説</span></div>
+    <div class="lang" role="group" aria-label="Language / 言語">
+      <button type="button" data-set-lang="en" aria-pressed="true" lang="en">English</button>
+      <button type="button" data-set-lang="ja" aria-pressed="false" lang="ja">日本語</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <p class="kicker"><span data-l="en" lang="en">Plain-language guide to a 2026 research paper</span><span data-l="ja" lang="ja">2026 年の研究論文を、やさしく解説します</span></p>
+  <h1><span data-l="en" lang="en">Can the quantum vacuum alone hold a wormhole open?</span><span data-l="ja" lang="ja">量子の真空だけで、ワームホールを開いたままにできるか</span></h1>
+  <p class="lede" data-l="en" lang="en">In science fiction, a wormhole is a tunnel through space. Its narrowest part, the throat, does not stay open by itself. At the throat, the source must have a property that ordinary matter does not have. The quantum vacuum is the standard candidate for such a source. A 2026 paper tests this idea on 42 fixed throat shapes, with the vacuum of one quantum field as the only source. This guide explains the paper in simple words. It uses only the paper's results and adds no new results.</p>
+  <p class="lede" data-l="ja" lang="ja">SF では、ワームホールは空間を通るトンネルです。そのいちばん細い所、喉は、ひとりでには開いたままになりません。喉では、ふつうの物質には無い性質を持つ源が要ります。そうした源の標準の候補が、量子の真空です。2026 年のある論文は、42 の固定した喉の形で、一種類の量子の場の真空だけを源として、この考えを試しました。このページは、その論文をやさしい言葉で解説します。使うのは論文の結果だけで、新しい結果は足していません。</p>
+  <p class="cite-line"><span data-l="en" lang="en">Paper:</span><span data-l="ja" lang="ja">論文:</span> Yukie Maeda, “No three-equation throat candidate found within b<sub>0</sub>/ℓ ∈ [1, 10<sup>3</sup>] on the grids of fixed Morris–Thorne backgrounds examined, for a massless conformally coupled scalar in the static vacuum”, version 1.1, Zenodo, 2026. <a href="https://doi.org/10.5281/zenodo.23826753">doi:10.5281/zenodo.23826753</a></p>
+</section>
+
+<figure class="video">
+  <video id="video" controls playsinline preload="metadata" poster="assets/video/poster.jpg" width="1920" height="1080">
+    <source src="assets/video/urashima-explainer.mp4" type="video/mp4">
+    <track kind="subtitles" srclang="en" label="English" src="assets/video/subs.en.vtt" default>
+    <track kind="subtitles" srclang="ja" label="日本語" src="assets/video/subs.ja.vtt">
+  </video>
+  <figcaption>
+    <span data-l="en" lang="en">Video ({{DURATION_EN}}). English narration with a synthetic voice. Subtitles in English and Japanese: use the subtitle (CC) button of the player to change them.</span>
+    <span data-l="ja" lang="ja">動画({{DURATION_JA}})。語りは英語の合成音声です。字幕は英語と日本語があり、プレーヤーの字幕(CC)のボタンで切り替えられます。</span>
+  </figcaption>
+</figure>
+
+<details class="transcript">
+  <summary><span data-l="en" lang="en">Read the video transcript</span><span data-l="ja" lang="ja">動画の語りを文字で読む(日本語訳)</span></summary>
+  {{TRANSCRIPT}}
+</details>
+
+<section class="short" aria-labelledby="short-h">
+  <h2 id="short-h"><span data-l="en" lang="en">The short version</span><span data-l="ja" lang="ja">要点</span></h2>
+  <ol data-l="en" lang="en">
+    <li>The paper tests 42 fixed wormhole shapes. The only source is the static vacuum of N copies of one quantum field. On the shapes examined, the paper finds no throat where the three equations at the throat hold together, for throats from 1 to 1,000 Planck lengths.</li>
+    <li>On three smooth throats, an older local approximation gives the sign that a throat needs. The full calculation gives the opposite sign.</li>
+    <li>One number at the throat, B, has a short formula. Its sign decides whether the throat size has a cap (B positive) or a floor (B negative).</li>
+    <li>Where B is positive, every cap lies below the Planck length, where this kind of calculation is not expected to apply. On the shapes sampled where B is negative, the pull equation has solutions, but the energy equation fails throughout the window.</li>
+    <li>The paper does not say that wormholes are impossible. It tests one field, in one state, on fixed shapes, at the throat only. The grids of shapes are samples, not a proof.</li>
+  </ol>
+  <ol data-l="ja" lang="ja">
+    <li>論文は、42 の固定したワームホールの形を試します。源は、一種類の量子の場を N 個そろえたときの、静的な真空だけです。調べた形では、喉の半径がプランク長さの 1〜1000 倍の範囲で、喉での三つの式が同時に成り立つ喉は見つかりませんでした。</li>
+    <li>三つのなめらかな喉では、以前からある局所近似は、喉に要る符号を与えます。省かない計算は、逆の符号を与えます。</li>
+    <li>喉での一つの数 B には、短い式があります。B の符号が、喉の大きさに上限があるか(B が正)、下限があるか(B が負)を決めます。</li>
+    <li>B が正の側では、上限は全てプランク長さより下にあり、この種の計算が当てはまらないと考えられる所です。B が負の側で調べた形では、引っ張りの式は解を持ちますが、エネルギーの式が窓の全体で成り立ちません。</li>
+    <li>論文は、ワームホールが不可能だとは言っていません。試したのは、一種類の場、一つの状態、固定した形、そして喉だけです。調べた形の格子は見本で、証明ではありません。</li>
+  </ol>
+</section>
+
+<article class="prose">
+
+<h2 id="tunnel"><span class="num">1</span><span data-l="en" lang="en">A tunnel through space</span><span data-l="ja" lang="ja">空間のトンネル</span></h2>
+<p data-l="en" lang="en">In science fiction, a wormhole is a tunnel through space. It joins two far places by a short path. Einstein's theory of gravity, general relativity, allows such shapes on paper. The narrowest part of the tunnel is called the <strong>throat</strong>.</p>
+<p data-l="ja" lang="ja">SF では、ワームホールは空間を通るトンネルです。遠い二つの場所を、短い道でつなぎます。アインシュタインの重力の理論、一般相対論は、紙の上ではこうした形を許します。トンネルのいちばん細い所を、<strong>喉</strong>と呼びます。</p>
+<p data-l="en" lang="en">But a throat does not stay open by itself. Something must hold it open. This paper asks what the quantum vacuum alone can do.</p>
+<p data-l="ja" lang="ja">けれども、喉はひとりでには開いたままになりません。何かが、喉を開いておかなければなりません。この論文は、量子の真空だけで何ができるかを問います。</p>
+{{FIG_WORMHOLE}}
+
+<h2 id="source"><span class="num">2</span><span data-l="en" lang="en">What could hold a throat open</span><span data-l="ja" lang="ja">何が喉を開いておけるか</span></h2>
+<p data-l="en" lang="en">In 1988, Michael Morris and Kip Thorne showed what a throat needs. At the throat, the source must violate the <strong>null energy condition</strong>. In simple words, the source must have a property that ordinary matter does not have. Physicists call such a source <strong>exotic</strong>.</p>
+<p data-l="ja" lang="ja">1988 年、マイケル・モリスとキップ・ソーンは、喉に何が要るかを示しました。喉では、源が<strong>ヌルエネルギー条件</strong>を破らなければなりません。やさしく言うと、源は、ふつうの物質には無い性質を持たなければなりません。物理学者は、そうした源を<strong>エキゾチック</strong>と呼びます。</p>
+<p data-l="en" lang="en">Quantum physics gives a candidate. In quantum theory, empty space, the <strong>vacuum</strong>, is not completely empty. In curved spacetime, the vacuum carries a small energy and pressure. Physicists call these together the <strong>vacuum stress</strong>. In some places, the vacuum stress can have the unusual sign. So it is the standard candidate to hold a throat open.</p>
+<p data-l="ja" lang="ja">量子物理は、候補を一つ与えます。量子論では、何も無い空間、つまり<strong>真空</strong>は、完全には空っぽではありません。曲がった時空では、真空は小さなエネルギーと圧力を持ちます。物理学者は、これらをまとめて<strong>真空の応力</strong>と呼びます。真空の応力は、ところによって、ふつうでない符号を持てます。そのため、喉を開いておく源の、標準の候補になっています。</p>
+<p data-l="en" lang="en">The paper uses the <strong>semiclassical</strong> approach. The shape of spacetime stays classical, as in Einstein's theory. The vacuum stress, averaged, is its source in Einstein's equations.</p>
+<p data-l="ja" lang="ja">論文は、<strong>半古典</strong>の取り扱いを使います。時空の形は、アインシュタインの理論のとおり古典のままです。平均した真空の応力が、アインシュタイン方程式の中で、その形の源になります。</p>
+<p data-l="en" lang="en">The paper asks a narrower question than “can wormholes exist?”. It asks: on given throat shapes, can the vacuum of one quantum field, alone, satisfy Einstein's equations at the throat?</p>
+<p data-l="ja" lang="ja">論文の問いは、「ワームホールはありうるか」よりも狭いものです。与えた喉の形で、一種類の量子の場の真空だけで、喉でのアインシュタイン方程式を満たせるか、を問います。</p>
+
+<h2 id="test"><span class="num">3</span><span data-l="en" lang="en">The test</span><span data-l="ja" lang="ja">試し方</span></h2>
+<p data-l="en" lang="en">The paper does not try to build a wormhole. It takes a throat shape, keeps it fixed, and tests it. All shapes are of the kind that Morris and Thorne described: static, round, with no horizon, and with two open regions far from the throat.</p>
+<p data-l="ja" lang="ja">論文は、ワームホールを作ろうとはしません。喉の形を一つ決めて固定し、その形を試します。形は全て、モリスとソーンが述べた種類のものです。時間で変わらず、丸く、地平線が無く、喉から遠い所に開けた領域が二つあります。</p>
+<p data-l="en" lang="en">The source is one kind of quantum field: a <strong>massless scalar field with conformal coupling</strong> (in the paper, ξ = 1/6). Its state is the <strong>static vacuum</strong> (Boulware-type). On each shape, the paper computes the full vacuum stress at the throat. This is a long numerical calculation.</p>
+<p data-l="ja" lang="ja">源は、一種類の量子の場です。<strong>質量の無い、共形結合のスカラー場</strong>(論文では ξ = 1/6)で、状態は<strong>静的な真空</strong>(ブールウェア型)です。それぞれの形で、論文は喉での真空の応力を、省かずに全て計算します。長い数値計算です。</p>
+<p data-l="en" lang="en">At the throat, Einstein's equations have three parts, one for each direction:</p>
+<p data-l="ja" lang="ja">喉で、アインシュタイン方程式は、向きごとに一つずつ、三つの部分に分かれます。</p>
+<ul data-l="en" lang="en">
+  <li><strong>energy</strong> (in the paper: tt),</li>
+  <li><strong>pull along the tunnel</strong>, the radial part (rr),</li>
+  <li><strong>pressure around the tunnel</strong> (θθ).</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li><strong>エネルギー</strong>(論文では tt)</li>
+  <li><strong>トンネルに沿った引っ張り</strong>、つまり動径の向きの部分(rr)</li>
+  <li><strong>トンネルを回る向きの圧力</strong>(θθ)</li>
+</ul>
+<p data-l="en" lang="en">A real throat needs all three at the same time. In this guide, we call them the energy equation, the pull equation and the third equation.</p>
+<p data-l="ja" lang="ja">本当の喉には、三つが同時に要ります。このページでは、これらをエネルギーの式、引っ張りの式、三つ目の式と呼びます。</p>
+{{FIG_THREE}}
+<p data-l="en" lang="en">The paper allows <strong>N identical copies</strong> of the field. More copies give more stress: N times as much.</p>
+<p data-l="ja" lang="ja">論文は、同じ場が <strong>N 個</strong>あってよいとします。数が多いほど、応力は大きくなります。N 倍です。</p>
+<p data-l="en" lang="en">The calculation has one <strong>free length</strong>, ℓ. Quantum theory does not fix its value. The paper fixes ℓ to an absolute length. The main value is the <strong>Planck length</strong>, about 1.6 × 10<sup>−35</sup> metres. Then it looks for throats with a radius from 1 to 1,000 Planck lengths. In this guide, we call this range the <strong>window</strong>.</p>
+<p data-l="ja" lang="ja">計算には、<strong>決まっていない長さ</strong> ℓ が一つあります。量子論は、その値を決めません。論文は、ℓ をある決まった長さに固定します。主な値は<strong>プランク長さ</strong>、約 1.6 × 10<sup>−35</sup> メートルです。そのうえで、半径がプランク長さの 1 倍から 1000 倍の喉を探します。このページでは、この範囲を<strong>窓</strong>と呼びます。</p>
+<p data-l="en" lang="en">In all, the paper examines 42 fixed shapes, in three layers of work. Each layer closed only after an independent review.</p>
+<p data-l="ja" lang="ja">全部で、論文は 42 の固定した形を、三つの層に分けて調べます。どの層も、独立した審査を通ってから閉じました。</p>
+
+<h2 id="layer1"><span class="num">4</span><span data-l="en" lang="en">An approximation and the full answer</span><span data-l="ja" lang="ja">近似と、省かない答え</span></h2>
+<p data-l="en" lang="en">First, the paper looks at three smooth throats (W1 to W3 in the paper). Here, the free length is equal to the throat radius.</p>
+<p data-l="ja" lang="ja">まず論文は、三つのなめらかな喉(論文では W1〜W3)を見ます。ここでは、決まっていない長さを、喉の半径と同じにします。</p>
+<p data-l="en" lang="en">An older approximation (of the form of Anderson, Hiscock and Samuel, 1995) keeps only a local part of the vacuum stress. In 1997, Hochberg, Popov and Sushkov used this approximation to build self-consistent wormhole solutions.</p>
+<p data-l="ja" lang="ja">以前からある近似(アンダーソン、ヒスコック、サミュエル、1995 年の形)は、真空の応力のうち、局所的な部分だけを残します。1997 年、ホッホバーグ、ポポフ、スシュコフは、この近似を使って、自己無撞着なワームホールの解を作りました。</p>
+<p data-l="en" lang="en">On all three throats, the local part alone gives a tension along the tunnel. This is the sign that a throat needs. But the full calculation gives the opposite sign: a pressure. The part that the approximation leaves out carries at least 94% of the total.</p>
+<p data-l="ja" lang="ja">三つの喉のどれでも、局所的な部分だけだと、トンネルに沿った張力になります。これは、喉に要る符号です。ところが、省かない計算は、逆の符号、つまり圧力を与えます。近似が省く部分が、全体の 94 % 以上を占めます。</p>
+{{FIG_BARS}}
+<p data-l="en" lang="en">So, on these throats, the sign of the approximation does not decide the sign of the total. The paper does not test the 1997 self-consistent solutions themselves.</p>
+<p data-l="ja" lang="ja">そのため、これらの喉では、近似の符号は全体の符号を決めません。1997 年の自己無撞着な解そのものは、論文は試していません。</p>
+
+<h2 id="b"><span class="num">5</span><span data-l="en" lang="en">One number decides the size limit</span><span data-l="ja" lang="ja">大きさの限りを決める一つの数</span></h2>
+<p data-l="en" lang="en">Next, the size of the throat. When the throat radius changes, the vacuum stress at the throat changes through a logarithm. One number at the throat, <strong>B</strong>, sets how strongly. (In the paper, this number is the throat logarithmic coefficient B<sub>rr</sub>.)</p>
+<p data-l="ja" lang="ja">次は、喉の大きさです。喉の半径が変わると、喉での真空の応力は、対数を通して変わります。その強さを決めるのは、喉での一つの数 <strong>B</strong> です(論文では、喉での対数の係数 B<sub>rr</sub>)。</p>
+<p data-l="en" lang="en">The paper finds a short formula for B. It depends on only two properties of the shape at the throat:</p>
+<p data-l="ja" lang="ja">論文は、B の短い式を見つけます。B は、喉での形の二つの性質だけで決まります。</p>
+<ul data-l="en" lang="en">
+  <li><strong>β</strong>: how fast the tunnel opens out at the throat,</li>
+  <li><strong>Φ<sub>1</sub>b<sub>0</sub></strong>: how fast the rate of clocks changes there.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li><strong>β</strong>: 喉でトンネルがどれだけ速く広がるか</li>
+  <li><strong>Φ<sub>1</sub>b<sub>0</sub></strong>: そこで時計の進み方がどれだけ速く変わるか</li>
+</ul>
+<p data-l="en" lang="en">B is proportional to 4 − (1 − β)<sup>2</sup> (1 − Φ<sub>1</sub>b<sub>0</sub>)<sup>2</sup>. So B is positive when (1 − β) × |1 − Φ<sub>1</sub>b<sub>0</sub>| is less than 2. The sign of B decides the kind of limit:</p>
+<p data-l="ja" lang="ja">B は、4 − (1 − β)<sup>2</sup> (1 − Φ<sub>1</sub>b<sub>0</sub>)<sup>2</sup> に比例します。そのため、(1 − β) × |1 − Φ<sub>1</sub>b<sub>0</sub>| が 2 より小さいとき、B は正です。B の符号が、限りの種類を決めます。</p>
+<ul data-l="en" lang="en">
+  <li>If B is positive, the pull equation allows only throats smaller than a <strong>cap</strong>. More copies of the field do not raise the cap.</li>
+  <li>If B is negative, the pull equation allows only throats larger than a <strong>floor</strong>, and it needs at least a certain number of copies of the field.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>B が正なら、引っ張りの式は、<strong>上限</strong>より小さい喉しか許しません。場の数を増やしても、上限は上がりません。</li>
+  <li>B が負なら、引っ張りの式は、<strong>下限</strong>より大きい喉しか許さず、場がある数以上要ります。</li>
+</ul>
+{{FIG_PLANE}}
+<p data-l="en" lang="en">The formula for B is exact. The other number that enters, the stress at the throat when ℓ equals the throat radius, comes from the numerical calculation on each shape.</p>
+<p data-l="ja" lang="ja">B の式は厳密です。もう一つ入る数、ℓ が喉の半径に等しいときの喉での応力は、それぞれの形での数値計算から来ます。</p>
+
+<h2 id="positive"><span class="num">6</span><span data-l="en" lang="en">Where B is positive</span><span data-l="ja" lang="ja">B が正の側</span></h2>
+<p data-l="en" lang="en">21 shapes have positive B: 15 of the main family of Layer 2, and 6 outside it. On all 21, the stress at the throat has the sign that gives a cap below the Planck length. The caps are 0.011 to 0.29 Planck lengths in the family, and 0.0017 to 0.28 Planck lengths outside it.</p>
+<p data-l="ja" lang="ja">B が正の形は 21 あります。第 2 層の主な族の 15 と、その外の 6 です。21 の全てで、喉での応力は、上限をプランク長さより下にする符号を持ちます。上限は、族の中でプランク長さの 0.011〜0.29 倍、族の外で 0.0017〜0.28 倍です。</p>
+<p data-l="en" lang="en">With one copy of the field, the pull equation on the 15 family shapes is solved at throat radii of about 0.010 to 0.054 Planck lengths. More copies do not move the throat above the cap. Even when clocks at the throat run much slower than far away (deep redshift), the throat does not come near the Planck length.</p>
+<p data-l="ja" lang="ja">場が 1 個のとき、族の 15 の形で引っ張りの式が解けるのは、喉の半径がプランク長さの約 0.010〜0.054 倍のときです。場の数を増やしても、喉は上限を越えません。喉で時計が遠くよりずっと遅く進むようにしても(深い赤方偏移)、喉はプランク長さに近づきません。</p>
+<p data-l="en" lang="en">Below the Planck length, this kind of calculation is not expected to apply. The paper gives these sizes no physical meaning.</p>
+<p data-l="ja" lang="ja">プランク長さより下では、この種の計算は当てはまらないと考えられています。論文は、これらの大きさに物理的な意味を持たせません。</p>
+<p data-l="en" lang="en">In the main family, the energy equation changes sign near only one point, at about 0.05 Planck lengths. There, the third equation is not satisfied. For the six shapes outside the family, the paper examined only the pull equation.</p>
+<p data-l="ja" lang="ja">主な族で、エネルギーの式が符号を変えるのは、プランク長さの約 0.05 倍の、一つの点の近くだけです。そこでは、三つ目の式が成り立ちません。族の外の六つの形では、論文は引っ張りの式だけを調べました。</p>
+{{FIG_SIZES}}
+
+<h2 id="negative"><span class="num">7</span><span data-l="en" lang="en">Where B is negative</span><span data-l="ja" lang="ja">B が負の側</span></h2>
+<p data-l="en" lang="en">On the other side of the curves, B is negative. Layer 3 samples 13 shapes on one face of this region (in the paper, the rule-c* face). This face is chosen so that the energy equation becomes simple.</p>
+<p data-l="ja" lang="ja">曲線の反対側では、B は負です。第 3 層は、この領域の一つの面(論文では rule-c* の面)の上で、13 の形を調べます。この面は、エネルギーの式が簡単になるように選んであります。</p>
+<p data-l="en" lang="en">At 12 of the 13 shapes, the sign of the stress at the throat is certain. There, the pull equation has solutions over the whole window, from 1 to 1,000 Planck lengths. (The floors are 0.27 to 0.82 Planck lengths.) Depending on the shape, it needs at least 59 to about 1,400 copies of the field.</p>
+<p data-l="ja" lang="ja">13 の形のうち 12 で、喉での応力の符号は確かです。そこでは、引っ張りの式は、プランク長さの 1 倍から 1000 倍までの窓の全体で解を持ちます(下限はプランク長さの 0.27〜0.82 倍です)。ただし形によって、場が少なくとも 59 個から約 1400 個要ります。</p>
+<p data-l="en" lang="en">But on this face, the error of the energy equation is one number, <strong>C</strong>, divided by the radial stress. So the sign of the error does not depend on the throat size. The computed C is negative at all 13 shapes, beyond its uncertainty. So wherever the pull equation holds, the energy equation fails. This is true throughout the window, at the 12 shapes with certain sign.</p>
+<p data-l="ja" lang="ja">けれども、この面では、エネルギーの式のずれは、一つの数 <strong>C</strong> を、動径の向きの応力で割ったものです。そのため、ずれの符号は喉の大きさによりません。計算した C は、13 の形の全てで、不確かさを越えて負です。そのため、引っ張りの式が成り立つ所では、どこでもエネルギーの式が成り立ちません。符号の確かな 12 の形で、窓の全体でそうです。</p>
+<p data-l="en" lang="en">The third equation crosses zero at only three shapes, at about 5.7, 17 and 112 Planck lengths. There, too, the energy equation fails. So no shape in this grid satisfies the three equations together in the window.</p>
+<p data-l="ja" lang="ja">三つ目の式がゼロを横切るのは、三つの形だけで、プランク長さの約 5.7 倍、17 倍、112 倍の所です。そこでも、エネルギーの式は成り立ちません。そのため、この格子のどの形でも、窓の中で三つの式が同時に成り立つことはありません。</p>
+<p data-l="en" lang="en">The 13 shapes all have a negative mass, as seen from far away. <strong>Version 1.1</strong> adds three shapes on the same face with a positive mass far away. These three pass the conservation check at finer settings (see Section 8). On them, too, the energy equation fails throughout the window, and the third equation has no zero.</p>
+<p data-l="ja" lang="ja">13 の形は全て、遠くから見ると負の質量を持ちます。<strong>第 1.1 版</strong>は、同じ面の上に、遠くから見て正の質量を持つ形を三つ足しました。この三つは、より細かい設定で保存則の確かめを通ります(8 節)。ここでも、エネルギーの式は窓の全体で成り立たず、三つ目の式にはゼロがありません。</p>
+<p data-l="en" lang="en">Seven control shapes off the face give only a floor. On the four controls outside the main families, the energy equation is not satisfied anywhere in the window either.</p>
+<p data-l="ja" lang="ja">面の外の七つの対照の形は、下限だけを与えます。主な族の外の四つの対照でも、エネルギーの式は、窓のどこでも成り立ちません。</p>
+
+<h3><span data-l="en" lang="en">The three equations, side by side</span><span data-l="ja" lang="ja">三つの式を並べると</span></h3>
+<div class="table-scroll">
+<table class="nums score" data-l="en" lang="en">
+  <caption class="note" style="caption-side: bottom; text-align: left; padding-top: 8px;">The window is 1 to 1,000 Planck lengths, with ℓ equal to the Planck length. ✓: holds; ✗: fails. From the paper's Sections V and VI and Appendix B, in simpler words.</caption>
+  <thead><tr><th></th><th>pull (rr)</th><th>energy (tt)</th><th>third (θθ)</th><th>all three in the window</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">B &gt; 0, main family (15)</th><td>solved only at 0.010–0.054 Planck lengths</td><td>changes sign near one point (≈ 0.05)</td><td class="bad"><span class="g">✗</span>not satisfied there</td><td>none</td></tr>
+    <tr><th scope="row">B &gt; 0, outside the family (6)</th><td>caps 0.0017–0.28 Planck lengths</td><td>not examined</td><td>not examined</td><td>none</td></tr>
+    <tr><th scope="row">B &lt; 0, one face (13)</th><td class="ok"><span class="g">✓</span>solutions in the whole window, at the 12 with certain sign (N ≥ 59 to about 1,400)</td><td class="bad"><span class="g">✗</span>fails throughout the window (12 with certain sign)</td><td>zero at 3 shapes</td><td>none</td></tr>
+    <tr><th scope="row">B &lt; 0, added in version 1.1 (3)</th><td class="ok"><span class="g">✓</span>solutions in the window</td><td class="bad"><span class="g">✗</span>fails throughout the window</td><td>no zero</td><td>none</td></tr>
+    <tr><th scope="row">B &lt; 0, controls outside the families (4)</th><td>floors 2.2–6.0 Planck lengths</td><td class="bad"><span class="g">✗</span>not satisfied anywhere in the window</td><td>—</td><td>none</td></tr>
+  </tbody>
+</table>
+<table class="nums score" data-l="ja" lang="ja">
+  <caption class="note" style="caption-side: bottom; text-align: left; padding-top: 8px;">窓はプランク長さの 1〜1000 倍で、ℓ はプランク長さです。✓: 成り立つ。✗: 成り立たない。論文の V 節・VI 節・付録 B を、やさしい言葉にしました。</caption>
+  <thead><tr><th></th><th>引っ張り(rr)</th><th>エネルギー(tt)</th><th>三つ目(θθ)</th><th>窓の中で三つ同時</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">B &gt; 0、主な族(15)</th><td>解けるのはプランク長さの 0.010〜0.054 倍だけ</td><td>一つの点(≈ 0.05)の近くで符号を変える</td><td class="bad"><span class="g">✗</span>そこで成り立たない</td><td>無し</td></tr>
+    <tr><th scope="row">B &gt; 0、族の外(6)</th><td>上限はプランク長さの 0.0017〜0.28 倍</td><td>調べていない</td><td>調べていない</td><td>無し</td></tr>
+    <tr><th scope="row">B &lt; 0、一つの面(13)</th><td class="ok"><span class="g">✓</span>符号の確かな 12 で、窓の全体で解あり(N ≥ 59〜約 1400)</td><td class="bad"><span class="g">✗</span>窓の全体で成り立たない(符号の確かな 12)</td><td>3 つの形でゼロ</td><td>無し</td></tr>
+    <tr><th scope="row">B &lt; 0、第 1.1 版で追加(3)</th><td class="ok"><span class="g">✓</span>窓の中で解あり</td><td class="bad"><span class="g">✗</span>窓の全体で成り立たない</td><td>ゼロ無し</td><td>無し</td></tr>
+    <tr><th scope="row">B &lt; 0、族の外の対照(4)</th><td>下限はプランク長さの 2.2〜6.0 倍</td><td class="bad"><span class="g">✗</span>窓のどこでも成り立たない</td><td>—</td><td>無し</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="constants"><span class="num">8</span><span data-l="en" lang="en">Free constants and how sure the numbers are</span><span data-l="ja" lang="ja">決まっていない定数と、数の確かさ</span></h2>
+<ul data-l="en" lang="en">
+  <li><strong>The free length ℓ.</strong> Changing ℓ changes the sizes, but not the answers. The floors scale with ℓ, and the number of copies needed scales with ℓ<sup>2</sup>.</li>
+  <li><strong>A second free constant, α.</strong> Renormalization leaves one more term open. The paper sets its constant α to zero, and then scans α from −0.01 to +0.1. Where B is positive, the points where the energy equation changes sign move within the family, but they stay below the Planck length. (There, solutions of all three equations were not searched for.) On the grid of 13 shapes where B is negative, no candidate of the three equations appears at any α in the range.</li>
+  <li><strong>Numerical uncertainty.</strong> It is 0.5% to 2.6% in Layers 1 and 2, and 6% to 16% in Layer 3. The convergence criterion of the plans (a change below 10<sup>−4</sup>) is not reached at any layer. The numbers are reproducible, but they are not rigorously certified.</li>
+  <li><strong>A conservation check.</strong> Most numbers of Layers 2 and 3 come from the main (“production”) settings. At these settings, near the throat, the numerical part does not satisfy the conservation law of energy and momentum. The cause is the cut-off in frequency. The paper recalculated 24 shapes at finer settings. All signs stayed the same. But four values moved by more than their uncertainty. So the paper keeps the production numbers, together with this reservation.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li><strong>決まっていない長さ ℓ。</strong>ℓ を変えると、大きさは変わりますが、答えは変わりません。下限は ℓ に比例し、要る場の数は ℓ<sup>2</sup> に比例します。</li>
+  <li><strong>もう一つの決まっていない定数 α。</strong>繰り込みは、もう一つの項を決めずに残します。論文は、その定数 α をゼロにし、そのうえで α を −0.01 から +0.1 まで動かします。B が正の側では、エネルギーの式が符号を変える点は族の中で動きますが、プランク長さより下にとどまります(そこでは、三つの式の解は探していません)。B が負の 13 の形の格子では、この範囲のどの α でも、三つの式の候補は出ません。</li>
+  <li><strong>数値の不確かさ。</strong>第 1 層と第 2 層で 0.5〜2.6 %、第 3 層で 6〜16 % です。計画で決めた収束の基準(変化が 10<sup>−4</sup> 未満)には、どの層も届いていません。数は再現できますが、厳密に保証されたものではありません。</li>
+  <li><strong>保存則の確かめ。</strong>第 2 層と第 3 層の数の多くは、主な(「本番の」)設定から来ます。この設定では、喉の近くで、数値の部分がエネルギーと運動量の保存則を満たしません。原因は、周波数の打ち切りです。論文は、24 の形を、より細かい設定で計算し直しました。符号は全て変わりませんでした。けれども、四つの値が、不確かさより大きく動きました。そのため論文は、本番の数を、この留保と一緒に残しています。</li>
+</ul>
+
+<h2 id="related"><span class="num">9</span><span data-l="en" lang="en">Relation to earlier work</span><span data-l="ja" lang="ja">以前の研究との関係</span></h2>
+<p data-l="en" lang="en">The paper states its relation to earlier work as facts, and it claims no novelty.</p>
+<p data-l="ja" lang="ja">論文は、以前の研究との関係を事実として述べ、新しさを主張していません。</p>
+<ul data-l="en" lang="en">
+  <li>Several general arguments conclude that throats held open by quantum effects stay near the Planck scale (for example Ford and Roman, 1996; Flanagan and Wald, 1996; and a review by Kontou, 2024). These arguments do not compute the stress of a specific field. The paper's result points in the same direction for the shapes examined. It is not a bound, and the paper does not compare its numbers with those inequalities, which were derived for a different coupling of the field.</li>
+  <li>Some works obtain large throats. In the works that the paper read, a large throat rests on one of these: a long throat, a large number of fields or charges, a classical magnetic field, or conditions on signs without the size of the terms. The shapes of this paper have no long throat, and no charge or magnetic field. The number of fields enters as N.</li>
+  <li>For example, Maldacena and Milekhin (2021) found that free fermions would need more than 10<sup>52</sup> kinds of field for a throat that a human could pass through. The paper only places its own numbers of copies (59 and up) next to this number. It does not compare them, because the two numbers answer different questions.</li>
+  <li>The paper found no statement in these works that contradicts its result.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>いくつかの一般的な議論は、量子の効果で開いた喉はプランクの大きさの近くにとどまる、と結論しています(たとえば、フォードとローマン 1996 年、フラナガンとウォルド 1996 年、コントゥの総説 2024 年)。これらの議論は、特定の場の応力を計算してはいません。論文の結果は、調べた形について、同じ向きを指します。論文の結果は限界の証明ではなく、論文はその数を、それらの不等式とは比べていません。不等式は、場の別の結合のしかたについて導かれたものだからです。</li>
+  <li>大きな喉を得た研究もあります。論文が読んだ研究では、大きな喉は、次のどれかに支えられていました。長い喉、多数の場や電荷、古典的な磁場、または項の大きさを見ずに符号だけで決めた条件です。この論文の形には、長い喉も、電荷や磁場もありません。場の数は N として入ります。</li>
+  <li>たとえば、マルダセナとミレキン(2021 年)は、人が通れる喉には、自由なフェルミオンの場が 10<sup>52</sup> 種類より多く要ることを見つけました。論文は、自分の場の数(59 個以上)を、この数の隣に並べるだけです。二つの数は違う問いに答えるので、比べてはいません。</li>
+  <li>論文は、これらの研究の中に、自らの結果と食い違う記述を見つけませんでした。</li>
+</ul>
+
+<div class="aside">
+<h3><span data-l="en" lang="en">A side question: warp drives</span><span data-l="ja" lang="ja">寄り道: ワープドライブ</span></h3>
+<p data-l="en" lang="en">In an appendix, the paper looks at a simpler model of a warp drive. The model has one dimension of space and one of time (1 + 1). It is the dynamical warp drive of Finazzi, Liberati and Barceló (2009), on a fixed background. At one edge of the bubble (the “white horizon”), the energy density of the vacuum grows exponentially with time. The paper finds that the sign of the growing term depends on how the warp drive was formed: for some ways of forming it, the sign is positive, and for others, negative. Nothing is claimed for two or three dimensions of space. The paper also writes a list of what such an extension would need. The list contains no results.</p>
+<p data-l="ja" lang="ja">論文は付録で、もっと簡単なワープドライブのモデルを見ます。空間 1 次元と時間 1 次元(1 + 1)のモデルで、フィナッツィ、リベラーティ、バルセロ(2009 年)の、時間とともに動くワープドライブを、固定した背景として使います。泡の一つの縁(「白い地平線」)では、真空のエネルギー密度が、時間とともに指数関数的に増えます。論文は、増える項の符号が、ワープドライブの作られ方によることを見つけました。作られ方によって、符号は正にも負にもなります。空間 2 次元や 3 次元については、何も主張していません。論文は、そうした拡張に何が要るかの一覧も書いていますが、一覧に結果は含まれていません。</p>
+</div>
+
+<h2 id="limits"><span class="num">10</span><span data-l="en" lang="en">What the paper does not claim</span><span data-l="ja" lang="ja">論文が主張しないこと</span></h2>
+<ul data-l="en" lang="en">
+  <li>The paper does not say that wormholes or warp drives are impossible. It also does not say that they can be made.</li>
+  <li>All shapes are fixed, and only the throat is checked. The paper does not solve for the full self-consistent shape.</li>
+  <li>It uses one field (massless, with conformal coupling) in one state (the static vacuum). Other fields, masses, couplings and states are not treated. For other fields, approximate results in the literature point in different directions.</li>
+  <li>The static vacuum is an assumption. Another state has been argued to be preferred in four-dimensional spacetimes without a horizon, and this has been disputed. The paper did not search for modes that grow with time.</li>
+  <li>Long throats are not in the families of shapes.</li>
+  <li>The grids are samples, not a proof for the families. Some shapes were not examined, for example shapes off the face with a positive mass far away.</li>
+  <li>Stability, the physical meaning of throats below the Planck length, engineering (supply of energy, construction, control) and consequences for quantum gravity are not treated.</li>
+  <li>The paper makes no claim of novelty or priority.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>論文は、ワームホールやワープドライブが不可能だとは言っていません。作れるとも言っていません。</li>
+  <li>形は全て固定し、確かめたのは喉だけです。論文は、自己無撞着な形の全体を解いていません。</li>
+  <li>使ったのは、一種類の場(質量が無く、共形結合)と、一つの状態(静的な真空)です。ほかの場、質量、結合、状態は扱っていません。ほかの場については、文献の近似の結果は、違う向きを指しています。</li>
+  <li>静的な真空は、仮定です。地平線の無い 4 次元の時空では別の状態が好ましい、という議論があり、それへの反論もあります。論文は、時間とともに増えるモードを探していません。</li>
+  <li>長い喉は、形の族に入っていません。</li>
+  <li>格子は見本で、族についての証明ではありません。調べていない形もあります。たとえば、面の外にある、遠くから見て正の質量を持つ形です。</li>
+  <li>安定性、プランク長さより小さい喉の物理的な意味、工学(エネルギーの供給、建設、制御)、量子重力への帰結は扱っていません。</li>
+  <li>論文は、新しさも先取りも主張していません。</li>
+</ul>
+
+<h2 id="how"><span class="num">11</span><span data-l="en" lang="en">How the work was done</span><span data-l="ja" lang="ja">仕事の進め方</span></h2>
+<ul data-l="en" lang="en">
+  <li>The work had three layers. Each layer closed only after an independent review, before the next layer opened.</li>
+  <li>For each computation, the plan and its criteria were fixed and saved before the run. Scripts wrote the results into frozen records. A list of claims and a log of the author's decisions, with dates, were kept.</li>
+  <li>A claim was marked as confirmed only after a reviewer that shared no context with the writer had accepted it. The reviewers were AI sessions. There were five review rounds, and one small round for the abstract of version 1.1.</li>
+  <li>Every numerical result in the paper (apart from settings, counts and numbers quoted from other papers) is in a list that a script checks against the frozen records. The paper is not released unless every line passes.</li>
+  <li>The computations, the project documents and the paper were prepared with AI assistants (Claude Code, by Anthropic). The author chose the question, approved the project's rules, accepted every claim, made every decision on direction, and takes full responsibility for the content.</li>
+  <li>The paper's human check says: the author has not reproduced the computations or the derivations. The author has read the title, the abstract and the statements of scope.</li>
+</ul>
+<ul data-l="ja" lang="ja">
+  <li>仕事は三つの層で進めました。どの層も、独立した審査を通ってから閉じ、それから次の層を開きました。</li>
+  <li>計算のたびに、計画とその基準を、実行の前に決めて保存しました。結果は台本が書き、固定した記録にしました。主張の一覧と、著者の決めの記録(日付つき)を残しました。</li>
+  <li>主張は、書き手と文脈を共有しない審査役が受け入れた後にだけ、確定としました。審査役は AI のセッションです。審査は 5 回あり、第 1.1 版の要旨についての小さな審査が 1 回ありました。</li>
+  <li>論文の数値の結果は全て(設定・個数・ほかの論文から引いた数を除く)一覧に入っていて、台本が固定した記録と照らします。全ての行が通らなければ、論文は出しません。</li>
+  <li>計算・作業の文書・論文は、AI の助手(Anthropic の Claude Code)と一緒に用意しました。問いを選び、作業のきまりを承認し、全ての主張を受け入れ、方向の決めを全て行ったのは著者で、中身の責任も全て著者が負います。</li>
+  <li>論文の「人の確かめ」には、こうあります。著者は、計算や導出を自分で再現してはいません。著者は、題・要旨・範囲を述べた文を読みました。</li>
+</ul>
+
+<h2 id="paperfigs"><span class="num">12</span><span data-l="en" lang="en">Two figures from the paper</span><span data-l="ja" lang="ja">論文の図を二つ</span></h2>
+<details>
+  <summary><span data-l="en" lang="en">Show the paper's Figures 1 and 2 (in English, as in the paper)</span><span data-l="ja" lang="ja">論文の図 1 と図 2 を見る(論文のとおり英語)</span></summary>
+  <figure class="paperfig">
+    <img class="narrow" src="assets/img/paper-fig1-b-sign-plane.png" width="1020" height="1080" loading="lazy" alt="Paper Figure 1: the plane of beta and Phi one b zero with the two curves where B_rr is zero, the shaded region where B_rr is positive, and the points of the grids and controls.">
+    <figcaption><span data-l="en" lang="en">Paper, Figure 1. The sign of B in the plane of the two throat properties. B is positive between the two curves (shaded). Circles: the 16 shapes of the main family of Layer 2. Squares: the 13 shapes on one face, Layer 3 (open: the shape where the sign of the stress is undetermined). Triangles: three controls above the upper curve. Diamonds: four controls outside the families.</span><span data-l="ja" lang="ja">論文の図 1。二つの喉の性質を軸にした平面での、B の符号。二本の曲線のあいだ(影)で B は正です。丸: 第 2 層の主な族の 16 の形。四角: 第 3 層の、一つの面の上の 13 の形(白抜き: 応力の符号が決まらない形)。三角: 上の曲線より上の三つの対照。ひし形: 族の外の四つの対照。</span></figcaption>
+  </figure>
+  <figure class="paperfig">
+    <img class="narrow" src="assets/img/paper-fig2-residuals-window.png" width="1020" height="1050" loading="lazy" alt="Paper Figure 2: the residuals R_tt (top) and R_theta-theta (bottom) from 1 to 1,000 Planck lengths at the shape WE_m1_far; R_tt stays positive, R_theta-theta crosses zero near 112.">
+    <figcaption><span data-l="en" lang="en">Paper, Figure 2. The errors of the energy equation (R<sub>tt</sub>, top) and of the third equation (R<sub>θθ</sub>, bottom) over the window, at one of the three shapes where the third equation crosses zero. The shaded bands show the uncertainty. R<sub>tt</sub> stays positive over the whole window. R<sub>θθ</sub> changes sign near 112 Planck lengths, where R<sub>tt</sub> is still positive.</span><span data-l="ja" lang="ja">論文の図 2。三つ目の式がゼロを横切る三つの形の一つでの、窓の全体にわたる、エネルギーの式のずれ(R<sub>tt</sub>、上)と三つ目の式のずれ(R<sub>θθ</sub>、下)。影は不確かさです。R<sub>tt</sub> は窓の全体で正のままです。R<sub>θθ</sub> はプランク長さの約 112 倍で符号を変えますが、そこでも R<sub>tt</sub> は正です。</span></figcaption>
+  </figure>
+</details>
+
+<h2 id="words"><span class="num">13</span><span data-l="en" lang="en">Words used in this guide</span><span data-l="ja" lang="ja">このページの言葉</span></h2>
+<dl class="gloss" data-l="en" lang="en">
+  <dt>Wormhole</dt><dd>A shape of spacetime with a tunnel that joins two regions.</dd>
+  <dt>Throat</dt><dd>The narrowest part of the tunnel.</dd>
+  <dt>Morris–Thorne shape</dt><dd>A static, round wormhole with no horizon and two open regions, of the kind that Morris and Thorne described in 1988.</dd>
+  <dt>Null energy condition</dt><dd>A condition that ordinary matter satisfies. A throat needs a source that violates it.</dd>
+  <dt>Exotic source</dt><dd>A source that violates the null energy condition.</dd>
+  <dt>Vacuum</dt><dd>Empty space. In quantum theory, it is not completely empty.</dd>
+  <dt>Vacuum stress</dt><dd>The energy and pressure of the quantum vacuum in curved spacetime (in the paper: the renormalized stress tensor).</dd>
+  <dt>Semiclassical</dt><dd>An approach in which spacetime stays classical and the averaged quantum stress is the source in Einstein's equations.</dd>
+  <dt>Massless scalar field with conformal coupling</dt><dd>The one kind of quantum field that the paper uses (ξ = 1/6).</dd>
+  <dt>Static vacuum</dt><dd>The state of the field that the paper uses (Boulware-type).</dd>
+  <dt>Planck length</dt><dd>About 1.6 × 10<sup>−35</sup> m. Below it, this kind of calculation is not expected to apply.</dd>
+  <dt>Free length ℓ</dt><dd>A length that quantum theory leaves open (the renormalization length). The paper sets it to the Planck length.</dd>
+  <dt>N</dt><dd>The number of identical copies of the field.</dd>
+  <dt>B</dt><dd>One number at the throat that sets how the stress changes with the throat size (the throat logarithmic coefficient).</dd>
+  <dt>Cap and floor</dt><dd>The largest and the smallest throat that the pull equation allows.</dd>
+  <dt>Window</dt><dd>In this guide: throat radii from 1 to 1,000 Planck lengths.</dd>
+  <dt>Pull equation, energy equation, third equation</dt><dd>In this guide: the rr, tt and θθ parts of Einstein's equations at the throat.</dd>
+  <dt>Self-consistent</dt><dd>A shape and a source that fit each other everywhere, not only at the throat.</dd>
+  <dt>Conservation reservation</dt><dd>At the main settings, near the throat, the numerical part does not satisfy the conservation law. The numbers carry this reservation.</dd>
+</dl>
+<dl class="gloss" data-l="ja" lang="ja">
+  <dt>ワームホール</dt><dd>二つの領域をつなぐトンネルを持つ、時空の形。</dd>
+  <dt>喉</dt><dd>トンネルのいちばん細い所。</dd>
+  <dt>モリス・ソーンの形</dt><dd>モリスとソーンが 1988 年に述べた種類の、時間で変わらず、丸く、地平線が無く、開けた領域を二つ持つワームホール。</dd>
+  <dt>ヌルエネルギー条件</dt><dd>ふつうの物質が満たす条件。喉には、これを破る源が要ります。</dd>
+  <dt>エキゾチックな源</dt><dd>ヌルエネルギー条件を破る源。</dd>
+  <dt>真空</dt><dd>何も無い空間。量子論では、完全には空っぽではありません。</dd>
+  <dt>真空の応力</dt><dd>曲がった時空での、量子の真空のエネルギーと圧力(論文では、繰り込んだ応力テンソル)。</dd>
+  <dt>半古典</dt><dd>時空は古典のままにし、平均した量子の応力をアインシュタイン方程式の源にする取り扱い。</dd>
+  <dt>質量の無い、共形結合のスカラー場</dt><dd>論文が使う、一種類の量子の場(ξ = 1/6)。</dd>
+  <dt>静的な真空</dt><dd>論文が使う、場の状態(ブールウェア型)。</dd>
+  <dt>プランク長さ</dt><dd>約 1.6 × 10<sup>−35</sup> m。これより下では、この種の計算は当てはまらないと考えられています。</dd>
+  <dt>決まっていない長さ ℓ</dt><dd>量子論が決めずに残す長さ(繰り込みの長さ)。論文はプランク長さにします。</dd>
+  <dt>N</dt><dd>同じ場の個数。</dd>
+  <dt>B</dt><dd>喉の大きさにつれて応力がどう変わるかを決める、喉での一つの数(喉での対数の係数)。</dd>
+  <dt>上限と下限</dt><dd>引っ張りの式が許す、いちばん大きい喉といちばん小さい喉。</dd>
+  <dt>窓</dt><dd>このページでは、プランク長さの 1〜1000 倍の喉の半径。</dd>
+  <dt>引っ張りの式、エネルギーの式、三つ目の式</dt><dd>このページでは、喉でのアインシュタイン方程式の rr、tt、θθ の部分。</dd>
+  <dt>自己無撞着</dt><dd>形と源が、喉だけでなく、あらゆる所で互いに合っていること。</dd>
+  <dt>保存則の留保</dt><dd>主な設定では、喉の近くで、数値の部分が保存則を満たしません。数には、この留保が付いています。</dd>
+</dl>
+
+<h2 id="paper"><span class="num">14</span><span data-l="en" lang="en">Read the paper</span><span data-l="ja" lang="ja">論文を読む</span></h2>
+<p class="citation">Maeda, Y. (2026). <em>No three-equation throat candidate found within b<sub>0</sub>/ℓ ∈ [1, 10<sup>3</sup>] on the grids of fixed Morris–Thorne backgrounds examined, for a massless conformally coupled scalar in the static vacuum</em> (Version 1.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.23826753">https://doi.org/10.5281/zenodo.23826753</a></p>
+<p data-l="en" lang="en">All versions: <a href="https://doi.org/10.5281/zenodo.23791141">doi:10.5281/zenodo.23791141</a>. The Zenodo record holds the paper (PDF) and an archive of the project with the scripts, the frozen records and the records of the review rounds, with the checksum of every file. The paper is in English and is under the CC BY 4.0 license.</p>
+<p data-l="ja" lang="ja">全ての版: <a href="https://doi.org/10.5281/zenodo.23791141">doi:10.5281/zenodo.23791141</a>。Zenodo の記録には、論文(PDF)と、台本・固定した記録・審査の記録をまとめた作業の保管(全てのファイルのチェックサムつき)が入っています。論文は英語で、ライセンスは CC BY 4.0 です。</p>
+
+<h2 id="about"><span class="num">15</span><span data-l="en" lang="en">About this page</span><span data-l="ja" lang="ja">このページについて</span></h2>
+<p data-l="en" lang="en">This page and its video explain the paper for a general audience. They use only the paper's own results. If this page and the paper differ, the paper is correct. The wormhole pictures on this page and in the video, and the curves in the video's scene on negative B, are drawings. The Japanese version is a translation of the English version.</p>
+<p data-l="ja" lang="ja">このページと動画は、一般の方に向けて論文を解説するものです。使っているのは論文自身の結果だけです。このページと論文が違うときは、論文が正しいです。このページと動画のワームホールの絵、そして動画の「B が負の側」の場面の曲線は、描いたものです。日本語版は、英語版の翻訳です。</p>
+<p data-l="en" lang="en"><strong>Made with AI.</strong> Claude, an AI model by Anthropic, wrote the text, the figures, the video script, the animation code, and this page, at the request of the paper's author.</p>
+<p data-l="ja" lang="ja"><strong>AI で作りました。</strong>文章・図・動画の台本・アニメーションのコード・このページは、論文の著者の依頼で、Anthropic の AI モデル Claude が書きました。</p>
+<p data-l="en" lang="en"><strong>Video.</strong> The animation uses Manim Community Edition. The voice is synthetic: Kokoro-82M (Apache License 2.0), run with kokoro-onnx. The video font is Computer Modern (CMU Serif).</p>
+<p data-l="ja" lang="ja"><strong>動画。</strong>アニメーションは Manim Community Edition で作りました。声は合成音声で、Kokoro-82M(Apache License 2.0)を kokoro-onnx で動かしました。動画の文字は Computer Modern(CMU Serif)です。</p>
+<p data-l="en" lang="en"><strong>License.</strong> The text, figures, and video of this page are available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The two figures in Section 12 are from the paper, also under CC BY 4.0.</p>
+<p data-l="ja" lang="ja"><strong>ライセンス。</strong>このページの文章・図・動画は、<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a> で使えます。12 節の二つの図は論文のもので、これも CC BY 4.0 です。</p>
+
+</article>
+</main>
+
+<footer>
+  <div class="in">
+    <span data-l="en" lang="en">A plain-language guide to Maeda (2026), version 1.1, doi:10.5281/zenodo.23826753. Text, figures, and video: CC BY 4.0.</span>
+    <span data-l="ja" lang="ja">前田(2026、第 1.1 版、doi:10.5281/zenodo.23826753)のやさしい解説。文章・図・動画: CC BY 4.0。</span>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>

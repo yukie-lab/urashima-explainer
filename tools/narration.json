@@ -1,0 +1,363 @@
+{
+ "voice": "af_heart",
+ "speed": 0.95,
+ "scenes": [
+  {
+   "id": "s1",
+   "title": "A tunnel through space",
+   "title_ja": "空間のトンネル",
+   "lines": [
+    {
+     "id": "1.1",
+     "say": "In science fiction, a wormhole is a tunnel through space. It joins two far places by a short path.",
+     "en": "In science fiction, a wormhole is a tunnel through space. It joins two far places by a short path.",
+     "ja": "SF では、ワームホールは空間を通るトンネルです。遠い二つの場所を、短い道でつなぎます。"
+    },
+    {
+     "id": "1.2",
+     "say": "Einstein's theory of gravity allows such shapes on paper. The narrowest part of the tunnel is called the throat.",
+     "en": "Einstein's theory of gravity allows such shapes on paper. The narrowest part of the tunnel is called the throat.",
+     "ja": "アインシュタインの重力の理論は、紙の上ではこうした形を許します。トンネルのいちばん細い所を、喉と呼びます。"
+    },
+    {
+     "id": "1.3",
+     "say": "But a throat does not stay open by itself. Something must hold it open.",
+     "en": "But a throat does not stay open by itself. Something must hold it open.",
+     "ja": "けれども、喉はひとりでには開いたままになりません。何かが、喉を開いておかなければなりません。"
+    },
+    {
+     "id": "1.4",
+     "say": "A twenty twenty-six research paper asks one narrow question.",
+     "en": "A 2026 research paper asks one narrow question.",
+     "ja": "2026 年のある研究論文は、一つの狭い問いを立てました。"
+    },
+    {
+     "id": "1.5",
+     "say": "Can the quantum vacuum alone hold a wormhole throat open?",
+     "en": "Can the quantum vacuum alone hold a wormhole throat open?",
+     "ja": "量子の真空だけで、ワームホールの喉を開いたままにできるか。"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "What could hold a throat open",
+   "title_ja": "何が喉を開いておけるか",
+   "lines": [
+    {
+     "id": "2.1",
+     "say": "In nineteen eighty-eight, Morris and Thorne showed what a throat needs. At the throat, the source must have a property that ordinary matter does not have.",
+     "en": "In 1988, Morris and Thorne showed what a throat needs. At the throat, the source must have a property that ordinary matter does not have.",
+     "ja": "1988 年、モリスとソーンは、喉に何が要るかを示しました。喉では、ふつうの物質には無い性質を持つ源が要ります。"
+    },
+    {
+     "id": "2.2",
+     "say": "In technical words, the source must violate the null energy condition. Physicists call such a source exotic.",
+     "en": "In technical words, the source must violate the null energy condition. Physicists call such a source exotic.",
+     "ja": "専門の言葉では、源は「ヌルエネルギー条件」を破らなければなりません。物理学者は、そうした源を「エキゾチック」と呼びます。"
+    },
+    {
+     "id": "2.3",
+     "say": "Quantum physics gives a candidate. Empty space, the vacuum, is not completely empty. In curved spacetime, it carries a small energy and pressure.",
+     "en": "Quantum physics gives a candidate. Empty space, the vacuum, is not completely empty. In curved spacetime, it carries a small energy and pressure.",
+     "ja": "量子物理は、候補を一つ与えます。何も無い空間、つまり真空は、完全には空っぽではありません。曲がった時空では、真空は小さなエネルギーと圧力を持ちます。"
+    },
+    {
+     "id": "2.4",
+     "say": "In some places, this vacuum stress can have the unusual sign. So it is the standard candidate to hold a throat open.",
+     "en": "In some places, this vacuum stress can have the unusual sign. So it is the standard candidate to hold a throat open.",
+     "ja": "この真空の応力は、ところによって、ふつうでない符号を持てます。そのため、喉を開いておく源の、標準の候補になっています。"
+    },
+    {
+     "id": "2.5",
+     "say": "In the semiclassical approach, the shape of spacetime is classical, and the vacuum stress is its source, through Einstein's equations.",
+     "en": "In the semiclassical approach, the shape of spacetime is classical, and the vacuum stress is its source, through Einstein's equations.",
+     "ja": "半古典の取り扱いでは、時空の形は古典のままで、真空の応力が、アインシュタイン方程式を通して、その形の源になります。"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "The test",
+   "title_ja": "試し方",
+   "lines": [
+    {
+     "id": "3.1",
+     "say": "The paper does not try to build a wormhole. It takes a fixed throat shape, and it tests that shape.",
+     "en": "The paper does not try to build a wormhole. It takes a fixed throat shape, and it tests that shape.",
+     "ja": "論文は、ワームホールを作ろうとはしません。喉の形を一つ決めて固定し、その形を試します。"
+    },
+    {
+     "id": "3.2",
+     "say": "It uses one kind of quantum field: a massless scalar field with conformal coupling, in the static vacuum.",
+     "en": "It uses one kind of quantum field: a massless scalar field with conformal coupling, in the static vacuum.",
+     "ja": "使う量子の場は一種類です。質量の無い、共形結合のスカラー場で、状態は静的な真空です。"
+    },
+    {
+     "id": "3.3",
+     "say": "On each shape, it computes the full vacuum stress at the throat. This is a long numerical calculation.",
+     "en": "On each shape, it computes the full vacuum stress at the throat. This is a long numerical calculation.",
+     "ja": "それぞれの形で、喉での真空の応力を、省かずに全て計算します。長い数値計算です。"
+    },
+    {
+     "id": "3.4",
+     "say": "Then it asks: at the throat, can Einstein's equations hold? There are three of them, one for each direction.",
+     "en": "Then it asks: at the throat, can Einstein's equations hold? There are three of them, one for each direction.",
+     "ja": "そして問います。喉で、アインシュタイン方程式は成り立つか。方程式は、向きごとに一つずつ、三つあります。"
+    },
+    {
+     "id": "3.5",
+     "say": "One is for the energy, one is for the pull along the tunnel, and one is for the pressure around it. A real throat needs all three at the same time.",
+     "en": "One is for the energy, one is for the pull along the tunnel, and one is for the pressure around it. A real throat needs all three at the same time.",
+     "ja": "一つはエネルギー、一つはトンネルに沿った引っ張り、一つはトンネルを回る向きの圧力の式です。本当の喉には、三つが同時に要ります。"
+    },
+    {
+     "id": "3.6",
+     "say": "The paper allows N identical copies of the field. More copies give more stress.",
+     "en": "The paper allows N identical copies of the field. More copies give more stress.",
+     "ja": "論文は、同じ場が N 個あってよいとします。数が多いほど、応力は大きくなります。"
+    },
+    {
+     "id": "3.7",
+     "say": "The calculation has one free length, ell. The paper sets it to the Planck length, about one point six times ten to the minus thirty-five metres.",
+     "en": "The calculation has one free length, ℓ. The paper sets it to the Planck length, about 1.6 × 10⁻³⁵ metres.",
+     "ja": "計算には、決まっていない長さ ℓ が一つあります。論文は、これをプランク長さ、約 1.6 × 10⁻³⁵ メートルにします。"
+    },
+    {
+     "id": "3.8",
+     "say": "It looks for throats with a radius from one to one thousand Planck lengths. In all, it examines forty-two fixed shapes.",
+     "en": "It looks for throats with a radius from 1 to 1,000 Planck lengths. In all, it examines 42 fixed shapes.",
+     "ja": "探すのは、半径がプランク長さの 1 倍から 1000 倍の喉です。全部で 42 の、固定した形を調べます。"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "An approximation and the full answer",
+   "title_ja": "近似と、省かない答え",
+   "lines": [
+    {
+     "id": "4.1",
+     "say": "First, on three smooth throats, the paper compares an older approximation with the full calculation.",
+     "en": "First, on three smooth throats, the paper compares an older approximation with the full calculation.",
+     "ja": "まず論文は、三つのなめらかな喉で、以前からある近似と、省かない計算とを比べます。"
+    },
+    {
+     "id": "4.2",
+     "say": "The approximation keeps only a local part of the stress. On all three throats, this part has the sign that a throat needs: a tension along the tunnel.",
+     "en": "The approximation keeps only a local part of the stress. On all three throats, this part has the sign that a throat needs: a tension along the tunnel.",
+     "ja": "近似は、応力のうち、局所的な部分だけを残します。三つの喉のどれでも、この部分は、喉に要る符号、つまりトンネルに沿った張力を持ちます。"
+    },
+    {
+     "id": "4.3",
+     "say": "But the full calculation gives the opposite sign. The part that the approximation leaves out carries at least ninety-four percent of the total.",
+     "en": "But the full calculation gives the opposite sign. The part that the approximation leaves out carries at least 94 percent of the total.",
+     "ja": "ところが、省かない計算は、逆の符号を与えます。近似が省く部分が、全体の 94 % 以上を占めます。"
+    },
+    {
+     "id": "4.4",
+     "say": "So on these throats, the full stress is a pressure, not the tension that a throat needs. The sign of the approximation does not decide the sign of the total.",
+     "en": "So on these throats, the full stress is a pressure, not the tension that a throat needs. The sign of the approximation does not decide the sign of the total.",
+     "ja": "そのため、これらの喉では、全体の応力は圧力で、喉に要る張力ではありません。近似の符号は、全体の符号を決めません。"
+    },
+    {
+     "id": "4.5",
+     "say": "The paper does not test the earlier self-consistent solutions that used this approximation.",
+     "en": "The paper does not test the earlier self-consistent solutions that used this approximation.",
+     "ja": "この近似を使った、以前の自己無撞着な解そのものは、論文は試していません。"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "One number decides the size limit",
+   "title_ja": "大きさの限りを決める一つの数",
+   "lines": [
+    {
+     "id": "5.1",
+     "say": "Next, the size of the throat. When the size changes, the vacuum stress changes through a logarithm. One number at the throat, B, sets how strongly.",
+     "en": "Next, the size of the throat. When the size changes, the vacuum stress changes through a logarithm. One number at the throat, B, sets how strongly.",
+     "ja": "次は、喉の大きさです。大きさが変わると、真空の応力は対数を通して変わります。その強さを決めるのは、喉での一つの数 B です。"
+    },
+    {
+     "id": "5.2",
+     "say": "The paper finds a short formula for B. It depends on only two properties of the shape.",
+     "en": "The paper finds a short formula for B. It depends on only two properties of the shape.",
+     "ja": "論文は、B の短い式を見つけます。B は、形の二つの性質だけで決まります。"
+    },
+    {
+     "id": "5.3",
+     "say": "One is how fast the tunnel opens out at the throat. The other is how fast the rate of clocks changes there.",
+     "en": "One is how fast the tunnel opens out at the throat. The other is how fast the rate of clocks changes there.",
+     "ja": "一つは、喉でトンネルがどれだけ速く広がるか。もう一つは、そこで時計の進み方がどれだけ速く変わるかです。"
+    },
+    {
+     "id": "5.4",
+     "say": "In the plane of these two properties, two curves divide the cases. Between the curves, B is positive. Outside them, B is negative.",
+     "en": "In the plane of these two properties, two curves divide the cases. Between the curves, B is positive. Outside them, B is negative.",
+     "ja": "この二つの性質を軸にした平面では、二本の曲線が場合を分けます。曲線のあいだでは B は正、外では負です。"
+    },
+    {
+     "id": "5.5",
+     "say": "If B is positive, the pull along the tunnel allows only throats smaller than a cap. If B is negative, it allows only throats larger than a floor.",
+     "en": "If B is positive, the pull along the tunnel allows only throats smaller than a cap. If B is negative, it allows only throats larger than a floor.",
+     "ja": "B が正なら、トンネルに沿った引っ張りの式は、上限より小さい喉しか許しません。B が負なら、下限より大きい喉しか許しません。"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "Where B is positive",
+   "title_ja": "B が正の側",
+   "lines": [
+    {
+     "id": "6.1",
+     "say": "On all twenty-one shapes with positive B, the cap lies below the Planck length.",
+     "en": "On all 21 shapes with positive B, the cap lies below the Planck length.",
+     "ja": "B が正の 21 の形の全てで、上限はプランク長さより下にあります。"
+    },
+    {
+     "id": "6.2",
+     "say": "With one copy of the field, on the fifteen shapes of the main family, the pull equation is solved only for throats of about zero point zero one to zero point zero five Planck lengths. More copies do not raise the cap.",
+     "en": "With one copy of the field, on the 15 shapes of the main family, the pull equation is solved only for throats of about 0.01 to 0.05 Planck lengths. More copies do not raise the cap.",
+     "ja": "場が 1 個のとき、主な族の 15 の形では、引っ張りの式が解けるのは、プランク長さの約 0.01〜0.05 倍の喉だけです。場の数を増やしても、上限は上がりません。"
+    },
+    {
+     "id": "6.3",
+     "say": "Below the Planck length, this kind of calculation is not expected to apply. The paper gives these sizes no physical meaning.",
+     "en": "Below the Planck length, this kind of calculation is not expected to apply. The paper gives these sizes no physical meaning.",
+     "ja": "プランク長さより下では、この種の計算は当てはまらないと考えられています。論文は、これらの大きさに物理的な意味を持たせません。"
+    },
+    {
+     "id": "6.4",
+     "say": "In that family, the energy equation changes sign near only one point, at about zero point zero five Planck lengths. There, the third equation fails.",
+     "en": "In that family, the energy equation changes sign near only one point, at about 0.05 Planck lengths. There, the third equation fails.",
+     "ja": "その族で、エネルギーの式が符号を変えるのは、プランク長さの約 0.05 倍の、一つの点の近くだけです。そこでは、三つ目の式が成り立ちません。"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "Where B is negative",
+   "title_ja": "B が負の側",
+   "lines": [
+    {
+     "id": "7.1",
+     "say": "On the other side, B is negative. The paper samples thirteen shapes on one face of this region, chosen so that the energy equation becomes simple.",
+     "en": "On the other side, B is negative. The paper samples 13 shapes on one face of this region, chosen so that the energy equation becomes simple.",
+     "ja": "反対側では、B は負です。論文は、この領域の一つの面の上で、13 の形を調べます。この面は、エネルギーの式が簡単になるように選んであります。"
+    },
+    {
+     "id": "7.2",
+     "say": "At twelve of these shapes, the sign of the stress is certain. There, the pull equation does have solutions over the whole range, from one to one thousand Planck lengths. Depending on the shape, it needs at least fifty-nine to about fourteen hundred copies of the field.",
+     "en": "At 12 of these shapes, the sign of the stress is certain. There, the pull equation does have solutions over the whole range, from 1 to 1,000 Planck lengths. Depending on the shape, it needs at least 59 to about 1,400 copies of the field.",
+     "ja": "このうち 12 の形では、応力の符号が確かです。そこでは、引っ張りの式は、プランク長さの 1 倍から 1000 倍までの全ての範囲で解を持ちます。ただし形によって、場が少なくとも 59 個から約 1400 個要ります。"
+    },
+    {
+     "id": "7.3",
+     "say": "But on this face, the error of the energy equation is one number, C, divided by the radial stress. So its sign does not depend on the size.",
+     "en": "But on this face, the error of the energy equation is one number, C, divided by the radial stress. So its sign does not depend on the size.",
+     "ja": "けれども、この面では、エネルギーの式のずれは、一つの数 C を、動径の向きの応力で割ったものです。そのため、ずれの符号は大きさによりません。"
+    },
+    {
+     "id": "7.4",
+     "say": "The computed C is negative at all thirteen points, beyond its uncertainty. So wherever the pull equation holds, the energy equation fails.",
+     "en": "The computed C is negative at all 13 points, beyond its uncertainty. So wherever the pull equation holds, the energy equation fails.",
+     "ja": "計算した C は、13 の点の全てで、不確かさを越えて負です。そのため、引っ張りの式が成り立つ所では、どこでも、エネルギーの式が成り立ちません。"
+    },
+    {
+     "id": "7.5",
+     "say": "The third equation crosses zero at only three points. But there, too, the energy equation fails. So the three equations never hold together.",
+     "en": "The third equation crosses zero at only three points. But there, too, the energy equation fails. So the three equations never hold together.",
+     "ja": "三つ目の式がゼロを横切るのは、三つの点だけです。けれども、そこでもエネルギーの式は成り立ちません。そのため、三つの式が同時に成り立つことはありません。"
+    },
+    {
+     "id": "7.6",
+     "say": "Version one point one adds three shapes on the same face with a positive mass, as seen from far away. The energy equation fails there too.",
+     "en": "Version 1.1 adds three shapes on the same face with a positive mass, as seen from far away. The energy equation fails there too.",
+     "ja": "第 1.1 版は、同じ面の上に、遠くから見て正の質量を持つ形を三つ足しました。そこでも、エネルギーの式は成り立ちません。"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "What the result says, and what it does not",
+   "title_ja": "結果が言うこと、言わないこと",
+   "lines": [
+    {
+     "id": "8.1",
+     "say": "So, for the shapes examined: the static vacuum of this one field does not, by itself, give a throat in the range where the calculation applies.",
+     "en": "So, for the shapes examined: the static vacuum of this one field does not, by itself, give a throat in the range where the calculation applies.",
+     "ja": "まとめると、調べた形については、この一種類の場の静的な真空は、それだけでは、計算が当てはまる範囲に喉を作りません。"
+    },
+    {
+     "id": "8.2",
+     "say": "Changing the free length changes the sizes, but not the answers. A scan of a second free constant gives no candidate on the negative-B shapes either.",
+     "en": "Changing the free length changes the sizes, but not the answers. A scan of a second free constant gives no candidate on the negative-B shapes either.",
+     "ja": "決まっていない長さを変えると、大きさは変わりますが、答えは変わりません。もう一つの決まっていない定数を動かしても、B が負の形では、候補は出ません。"
+    },
+    {
+     "id": "8.3",
+     "say": "This points in the same direction as earlier general arguments, which suggest that throats held open by quantum effects stay near the Planck scale. The paper makes no claim of priority.",
+     "en": "This points in the same direction as earlier general arguments, which suggest that throats held open by quantum effects stay near the Planck scale. The paper makes no claim of priority.",
+     "ja": "これは、量子の効果で開いた喉はプランクの大きさの近くにとどまる、という以前の一般的な議論と、同じ向きです。論文は、先取りを主張していません。"
+    },
+    {
+     "id": "8.4",
+     "say": "The paper does not say that wormholes are impossible. It tests one field, in one state, on fixed shapes, at the throat only.",
+     "en": "The paper does not say that wormholes are impossible. It tests one field, in one state, on fixed shapes, at the throat only.",
+     "ja": "論文は、ワームホールが不可能だとは言っていません。試したのは、一種類の場、一つの状態、固定した形、そして喉だけです。"
+    },
+    {
+     "id": "8.5",
+     "say": "Other fields, other states, long throats, the full self-consistent shape, and stability are not examined. And the grids of shapes are samples, not a proof.",
+     "en": "Other fields, other states, long throats, the full self-consistent shape, and stability are not examined. And the grids of shapes are samples, not a proof.",
+     "ja": "ほかの場、ほかの状態、長い喉、自己無撞着な形の全体、安定性は、調べていません。調べた形の格子は見本で、証明ではありません。"
+    },
+    {
+     "id": "8.6",
+     "say": "Many numbers also carry a reservation on a conservation check near the throat. A recalculation of twenty-four shapes at finer settings kept every sign.",
+     "en": "Many numbers also carry a reservation on a conservation check near the throat. A recalculation of 24 shapes at finer settings kept every sign.",
+     "ja": "多くの数には、喉の近くでの保存則の確かめについての留保も付いています。24 の形をより細かい設定で計算し直すと、符号は全て変わりませんでした。"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "How the work was done",
+   "title_ja": "仕事の進め方",
+   "lines": [
+    {
+     "id": "9.1",
+     "say": "The work had three layers. Each layer closed only after an independent review.",
+     "en": "The work had three layers. Each layer closed only after an independent review.",
+     "ja": "仕事は三つの層で進めました。どの層も、独立した審査を通ってから閉じました。"
+    },
+    {
+     "id": "9.2",
+     "say": "The reviewers were AI sessions that shared no context with the writer. Every number in the paper is checked by machine against frozen records.",
+     "en": "The reviewers were AI sessions that shared no context with the writer. Every number in the paper is checked by machine against frozen records.",
+     "ja": "審査役は、書き手と文脈を共有しない AI のセッションでした。論文の数は全て、固定した記録と機械で照らしてあります。"
+    },
+    {
+     "id": "9.3",
+     "say": "The computations and the text were prepared with AI assistants. The author chose the question, made every decision on direction, and takes responsibility for the content.",
+     "en": "The computations and the text were prepared with AI assistants. The author chose the question, made every decision on direction, and takes responsibility for the content.",
+     "ja": "計算と文章は、AI の助手と一緒に用意しました。問いを選び、方向の決めを全て行ったのは著者で、中身の責任も著者が負います。"
+    },
+    {
+     "id": "9.4",
+     "say": "The author has not reproduced the computations. The author has read the title, the abstract and the statements of scope.",
+     "en": "The author has not reproduced the computations. The author has read the title, the abstract and the statements of scope.",
+     "ja": "著者は、計算を自分で再現してはいません。著者が読んだのは、題・要旨・範囲を述べた文です。"
+    },
+    {
+     "id": "9.5",
+     "say": "The paper, the scripts and the records are on Zenodo. The link is below the video.",
+     "en": "The paper, the scripts and the records are on Zenodo. The link is below the video.",
+     "ja": "論文・台本・記録は Zenodo にあります。リンクは動画の下にあります。"
+    }
+   ]
+  }
+ ]
+}

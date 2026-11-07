@@ -1,0 +1,59 @@
+{
+ "duration": 428.3,
+ "chapters": [
+  {
+   "id": "s1",
+   "title": "A tunnel through space",
+   "title_ja": "空間のトンネル",
+   "start": 0.0
+  },
+  {
+   "id": "s2",
+   "title": "What could hold a throat open",
+   "title_ja": "何が喉を開いておけるか",
+   "start": 31.47
+  },
+  {
+   "id": "s3",
+   "title": "The test",
+   "title_ja": "試し方",
+   "start": 76.03
+  },
+  {
+   "id": "s4",
+   "title": "An approximation and the full answer",
+   "title_ja": "近似と、省かない答え",
+   "start": 135.63
+  },
+  {
+   "id": "s5",
+   "title": "One number decides the size limit",
+   "title_ja": "大きさの限りを決める一つの数",
+   "start": 178.33
+  },
+  {
+   "id": "s6",
+   "title": "Where B is positive",
+   "title_ja": "B が正の側",
+   "start": 220.83
+  },
+  {
+   "id": "s7",
+   "title": "Where B is negative",
+   "title_ja": "B が負の側",
+   "start": 260.53
+  },
+  {
+   "id": "s8",
+   "title": "What the result says, and what it does not",
+   "title_ja": "結果が言うこと、言わないこと",
+   "start": 325.93
+  },
+  {
+   "id": "s9",
+   "title": "How the work was done",
+   "title_ja": "仕事の進め方",
+   "start": 387.67
+  }
+ ]
+}
